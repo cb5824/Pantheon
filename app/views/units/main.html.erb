@@ -1,0 +1,7 @@
+<h1>Pantheon Testing Ground</h1>
+<h2>Current Units:</h2>
+<ul>
+  <% @units.each do |unit| %>
+    <li><%= unit.name %>, Stats: <%= unit.power %>/<%= unit.toughness %></li>
+  <% end %>
+</ul>
